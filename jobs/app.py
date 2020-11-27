@@ -1,11 +1,9 @@
 from flask import Flask, g, render_template
 import sqlite3
 
-PATH = "db/jobs.sqlite"
 app = Flask(__name__)
+PATH = "db/jobs.sqlite"
 
-def open_connection():
-  return "moop"
 
 @app.route('/')
 @app.route('/jobs')
