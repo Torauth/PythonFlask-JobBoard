@@ -5,6 +5,7 @@ PATH = "db/jobs.sqlite"
 app = Flask(__name__)
 
 def open_connection():
+  return "moop"
 
 @app.route('/')
 @app.route('/jobs')
